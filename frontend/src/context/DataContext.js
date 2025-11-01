@@ -64,7 +64,7 @@ const dataReducer = (state, action) => {
 };
 
 // API base URL
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = 'https://manrega-dashboard-0012.onrender.com/api';
 
 // Simple client-side cache and inflight request dedupe
 const CACHE_TTL_MS = 1000 * 60 * 60; // 1 hour
